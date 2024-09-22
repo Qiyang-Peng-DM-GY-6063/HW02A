@@ -6,7 +6,7 @@ let verticalColor;
 function setup() {
   newCanvas = createCanvas(510, 510);
   newCanvas.position((windowWidth - width) / 2, (windowHeight - height) / 2);
-  colorMode(RGB, 100);
+  colorMode(RGB, 255);
 
   backgroundColor = color(252,241,226);
   horizontalColor = color(140,45,45);
