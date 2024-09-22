@@ -13,7 +13,7 @@ function setup() {
   verticalColor = color(200,77,47);
 
   background(backgroundColor);
-  
+
   noStroke();
 
 }
@@ -71,3 +71,6 @@ function horizontalShape(x,y,s,color){
   square(x,y+s/3,s/3);
   square(x+s*2/3,y+s/3,s/3);
 }
+
+
+//credit artist: Vera Molnar
