@@ -16,9 +16,6 @@ function setup() {
 
   noStroke();
 
-}
-
-function draw() {
   //Line 1
   verticalShape(30,30,90,verticalColor);
   horizontalShape(120,30,90,horizontalColor);
@@ -54,6 +51,10 @@ function draw() {
   horizontalShape(300,390,90,horizontalColor);
   verticalShape(390,390,90,verticalColor);
 
+}
+
+function draw() {
+  
 }
 
 function verticalShape(x,y,s,color){
